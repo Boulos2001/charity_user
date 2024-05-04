@@ -1,0 +1,28 @@
+{
+    "email": "البريد الإلكتروني",
+    "enter_email": "أدخل البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "enter_password": "أدخل كلمة المرور",
+    "signin": "تسجيل الدخول",
+    "have_no_account": "لا يوجد لدي حساب",
+    "have_account": "لقد قمت بالتسجيل مسبقاً",
+    "create_account": "إنشاء حساب جديد",
+    "field_required": "الحقل مطلوب",
+    "email_required": "البريد الإلكتروني مطلوب",
+    "valid_email": "البريد الإلكتروني غير صالح",
+    "min_char": "كلمة المرور مكونة من 8 خانات على الاقل",
+    "accepts_on": "اوافق على ",
+    "policy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "and": " و ",
+    "enter_fname": "أدخل الاسم",
+    "enter_lname": "أدخل الكنية",
+    "first_name": "الاسم",
+    "last_name": "الكنية",
+    "address": "العنوان",
+    "enter_address": "أدخل العنوان",
+    "confirm_password": "تأكيد كلمة المرور"
+
+
+
+}

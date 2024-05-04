@@ -1,0 +1,26 @@
+{
+    "email": "Email",
+    "enter_email": "Enter the email",
+    "password": "Password",
+    "enter_password": "Enter Password",
+    "signin": "Sign in",
+    "have_no_account": "I have no account",
+    "have_account": "I already have an account",
+    "create_account": "Create Account",
+    "field_required": "The field is required",
+    "valid_email": "The email is not valid",
+    "email_required": "Email is required",
+    "min_char": "Password must be at least 8 characters",
+    "accepts_on": "I agree to the ",
+    "policy": "Privacy Policy",
+    "and": " and ",
+    "terms": "Term of Use",
+    "enter_fname": "Enter the name",
+    "enter_lname": "Enter the nickname",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "address": "Address",
+    "enter_address": "Enter Address",
+    "confirm_password": "Confirm Password"
+
+}
