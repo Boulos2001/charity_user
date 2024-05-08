@@ -4,6 +4,7 @@ import 'package:cahrity_project/core/dependency_injection/injection_container.da
 import 'package:cahrity_project/core/session_management/session.dart';
 import 'package:cahrity_project/features/auth/presentation/pages/login_view.dart';
 import 'package:cahrity_project/features/auth/presentation/pages/signup_view.dart';
+import 'package:cahrity_project/features/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
@@ -26,8 +27,6 @@ class AppRouter {
               }
             },
             routes: const []),
-  
-
         GoRoute(
             path: "/login",
             name: "login",
@@ -36,5 +35,9 @@ class AppRouter {
             path: "/sign_up",
             name: "sign_up",
             builder: (context, state) => const SignUpView()),
+        GoRoute(
+            path: "/home",
+            name: "home",
+            builder: (context, state) => const HomePage()),
       ]);
 }

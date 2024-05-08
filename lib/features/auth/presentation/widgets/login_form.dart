@@ -79,14 +79,16 @@ class _LoginFormState extends State<LoginForm> {
                     loading: ((state is DataStates) && state.loading),
                     title: "signin".tr(),
                     onPressed: () {
-                      if (_formKey.currentState!.validate()) {
-                        context
-                            .read<AuthCubit>()
-                            .login(
-                                emailController!.text, passwordController!.text)
-                            .then(
-                                (value) => value ? context.go("/home") : null);
-                      }
+                  context.push("/home");
+
+                      // if (_formKey.currentState!.validate()) {
+                      //   context
+                      //       .read<AuthCubit>()
+                      //       .login(
+                      //           emailController!.text, passwordController!.text)
+                      //       .then(
+                      //           (value) => value ? context.go("/home") : null);
+                      // }
                     },
                   );
                 },

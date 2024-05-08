@@ -3,7 +3,6 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:cahrity_project/core/dependency_injection/injection_container.dart';
 import 'package:cahrity_project/features/auth/presentation/pages/login_view.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -60,6 +60,8 @@ dependencies:
   path: ^1.9.0
   permission_handler: ^11.3.0
   font_awesome_flutter: ^10.7.0
+  carousel_slider: ^4.2.1
+  easy_stepper: ^0.8.3
   # ================================================
 
 dependency_overrides:

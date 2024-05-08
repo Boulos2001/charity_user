@@ -18,29 +18,32 @@ class LoginView extends StatelessWidget {
     print('sdadsa ${getIt<GlobalKey<NavigatorState>>().currentContext}');
     return BlocProvider(
       create: (context) => getIt<AuthCubit>(),
-      child:  Scaffold(
+      child: Scaffold(
           backgroundColor: AppColors.background,
           body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const LoginForm(),
-              SizedBox(height: 30.h,),
-                RichText(
-              text: TextSpan(
-                  text: "have_no_account".tr(),
-                  style: AppTextStyles.medium18.copyWith(fontFamily: "Tajawal"),
-                  children: [
-                    TextSpan(
-                        text: " ${"create_account".tr()}",
-                        style: AppTextStyles.bold18.copyWith(
-                            color: AppColors.primaryGreen,
-                            fontFamily: "Tajawal"))
-                  ]),
-            ).center().inkwell(
-              onTap: () {
-                context.push("/sign_up");
-              },
-            ),
+              SizedBox(
+                height: 30.h,
+              ),
+              RichText(
+                text: TextSpan(
+                    text: "have_no_account".tr(),
+                    style:
+                        AppTextStyles.medium18.copyWith(fontFamily: "Tajawal"),
+                    children: [
+                      TextSpan(
+                          text: " ${"create_account".tr()}",
+                          style: AppTextStyles.bold18.copyWith(
+                              color: AppColors.primaryGreen,
+                              fontFamily: "Tajawal"))
+                    ]),
+              ).center().inkwell(
+                onTap: () {
+                  context.push("/sign_up");
+                },
+              ),
             ],
           )),
     );
