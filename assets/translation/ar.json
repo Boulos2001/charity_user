@@ -21,8 +21,10 @@
     "last_name": "الكنية",
     "address": "العنوان",
     "enter_address": "أدخل العنوان",
-    "confirm_password": "تأكيد كلمة المرور"
-
+    "confirm_password": "تأكيد كلمة المرور",
+    "search":"بحث",
+    "association_name":"اسم الجمعية",
+    "description_association":"وصف عن الجمعية"
 
 
 }

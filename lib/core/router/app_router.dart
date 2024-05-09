@@ -4,6 +4,7 @@ import 'package:cahrity_project/core/dependency_injection/injection_container.da
 import 'package:cahrity_project/core/session_management/session.dart';
 import 'package:cahrity_project/features/auth/presentation/pages/login_view.dart';
 import 'package:cahrity_project/features/auth/presentation/pages/signup_view.dart';
+import 'package:cahrity_project/features/charites/presentation/pages/charites_view.dart';
 import 'package:cahrity_project/features/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -13,7 +14,7 @@ class AppRouter {
   static final GoRouter goRouter = GoRouter(
       navigatorKey: getIt<GlobalKey<NavigatorState>>(),
       debugLogDiagnostics: true,
-      initialLocation: "/",
+      initialLocation: "/charites_view",
       routes: [
         GoRoute(
             path: "/",
@@ -39,5 +40,9 @@ class AppRouter {
             path: "/home",
             name: "home",
             builder: (context, state) => const HomePage()),
+            GoRoute(
+            path: "/charites_view",
+            name: "charites_view",
+            builder: (context, state) =>  CharitiesView())
       ]);
 }

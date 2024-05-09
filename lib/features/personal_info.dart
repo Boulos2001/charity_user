@@ -19,7 +19,7 @@ class _OrderPageState extends State<PersonalInfoPage> {
       appBar: AppBar(
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 40, top: 10),
+            padding:  EdgeInsets.only(right: 40, top: 10),
             child: EasyStepper(
               activeStep: activeStep,
               activeStepTextColor: Colors.black87,

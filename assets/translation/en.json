@@ -21,6 +21,9 @@
     "last_name": "Last Name",
     "address": "Address",
     "enter_address": "Enter Address",
-    "confirm_password": "Confirm Password"
+    "confirm_password": "Confirm Password",
+    "search":"Search",
+    "association_name":"Association name",
+    "description_association":"Description of the association"
 
 }
